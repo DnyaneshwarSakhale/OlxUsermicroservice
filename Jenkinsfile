@@ -17,7 +17,7 @@ pipeline {
             jacoco()
             }
             }
-        stages('building docker image'){
+        stage('building docker image'){
             steps{
                 echo 'building docker image'
             }
